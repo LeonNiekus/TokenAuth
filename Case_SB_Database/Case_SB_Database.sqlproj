@@ -67,7 +67,4 @@
   <ItemGroup>
     <PostDeploy Include="PostDeployment\PostDeployment.sql" />
   </ItemGroup>
-  <ItemGroup>
-    <RefactorLog Include="Case_SB_Database.refactorlog" />
-  </ItemGroup>
 </Project>

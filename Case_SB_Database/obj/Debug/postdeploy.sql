@@ -13,7 +13,7 @@ Post-Deployment Script Template
 MERGE INTO Users AS Target 
 USING (VALUES 
         (1, 'Leon Niekus', 'wachtwoord1', 'Admin', 'leon@outlook.com'), 
-		(2, 'Luuk Ammerlaan', 'wachtwoord2', 'SuperAdmin', 'luuk@outlook.com'),
+		(2, 'Luuk Ammerlaan', 'wachtwoord2', 'Manager', 'luuk@outlook.com'),
 		(3, 'Avans Hogeschool', 'wachtwoord3', 'User', 'avans@outlook.com')
 ) 
 AS Source (Id, Name, Password, Role, Email) 

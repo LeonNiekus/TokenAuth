@@ -4,13 +4,13 @@ using System.Linq;
 
 namespace Case_SB_Web.Repository
 {
-    public class UserRepository : IDisposable
+    public class ClientRepository : IDisposable
     {
         private Entities _context = new Entities();
 
-        public User ValidateUser(string name, string password)
+        public Client ValidateClient(string id, string secret)
         {
-            return _context.Users.Where(u => u.Name.Equals(name, StringComparison.OrdinalIgnoreCase) && u.Password == password).FirstOrDefault();
+            return _context.Clients.Where(u => u.Id == id && u.Secret == secret).FirstOrDefault();
         }
 
         public void Dispose()

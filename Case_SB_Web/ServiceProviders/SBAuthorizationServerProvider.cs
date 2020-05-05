@@ -1,12 +1,8 @@
 ﻿using Case_SB_Domain;
 using Case_SB_Web.Repository;
 using Microsoft.Owin.Security.OAuth;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
-using System.Web;
 
 namespace Case_SB_Web.ServiceProviders
 {
@@ -14,6 +10,29 @@ namespace Case_SB_Web.ServiceProviders
     {
         public override async Task ValidateClientAuthentication(OAuthValidateClientAuthenticationContext context)
         {
+            string clientId = string.Empty;
+            string clientSecret = string.Empty;
+
+            if (!context.TryGetBasicCredentials(out clientId, out clientSecret))
+            {
+                context.SetError("invalid_client", "Authorization header could not provide valid client credentials.");
+                context.Rejected();
+                return;
+            }
+
+            Client client = (new ClientRepository()).ValidateClient(clientId, clientSecret);
+
+            if (client != null)
+            {
+                context.OwinContext.Set<Client>("oauth:client", client);
+                context.Validated(clientId);
+            }
+            else
+            {
+                context.SetError("invalid_client", "These client credentials do not match our records.");
+                context.Rejected();
+            }
+
             context.Validated();
         }
 

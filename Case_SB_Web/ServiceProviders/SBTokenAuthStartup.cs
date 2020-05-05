@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Threading.Tasks;
 using System.Web.Http;
 using Microsoft.Owin;
 using Microsoft.Owin.Security.OAuth;
@@ -19,7 +18,7 @@ namespace Case_SB_Web.ServiceProviders
             {
                 AllowInsecureHttp = true,
                 TokenEndpointPath = new PathString("/getToken"),
-                AccessTokenExpireTimeSpan = TimeSpan.FromDays(1),
+                AccessTokenExpireTimeSpan = TimeSpan.FromHours(6),
                 Provider = new SBAuthorizationServerProvider()
             };
             app.UseOAuthAuthorizationServer(options);
