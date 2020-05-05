@@ -1,0 +1,12 @@
+C:\Users\Leon\Desktop\TokenAuth\TokenAuth\Case_SB_Domain\bin\Debug\Case_SB_Domain.dll.config
+C:\Users\Leon\Desktop\TokenAuth\TokenAuth\Case_SB_Domain\bin\Debug\Case_SB_Domain.dll
+C:\Users\Leon\Desktop\TokenAuth\TokenAuth\Case_SB_Domain\bin\Debug\Case_SB_Domain.pdb
+C:\Users\Leon\Desktop\TokenAuth\TokenAuth\Case_SB_Domain\bin\Debug\EntityFramework.dll
+C:\Users\Leon\Desktop\TokenAuth\TokenAuth\Case_SB_Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Leon\Desktop\TokenAuth\TokenAuth\Case_SB_Domain\bin\Debug\EntityFramework.xml
+C:\Users\Leon\Desktop\TokenAuth\TokenAuth\Case_SB_Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Leon\Desktop\TokenAuth\TokenAuth\Case_SB_Domain\obj\Debug\Case_SB_Domain.csprojAssemblyReference.cache
+C:\Users\Leon\Desktop\TokenAuth\TokenAuth\Case_SB_Domain\obj\Debug\Case_SB_Domain.csproj.CoreCompileInputs.cache
+C:\Users\Leon\Desktop\TokenAuth\TokenAuth\Case_SB_Domain\obj\Debug\Case_SB_Domain.csproj.CopyComplete
+C:\Users\Leon\Desktop\TokenAuth\TokenAuth\Case_SB_Domain\obj\Debug\Case_SB_Domain.dll
+C:\Users\Leon\Desktop\TokenAuth\TokenAuth\Case_SB_Domain\obj\Debug\Case_SB_Domain.pdb

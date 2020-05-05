@@ -8,3 +8,12 @@ C:\Users\Leon\source\repos\Case_SB\Case_SB_Database\obj\Debug\postdeploy.sql
 C:\Users\Leon\source\repos\Case_SB\Case_SB_Database\obj\Debug\predeploy.sql
 C:\Users\Leon\source\repos\Case_SB\Case_SB_Database\obj\Debug\Case_SB_Database.dll
 C:\Users\Leon\source\repos\Case_SB\Case_SB_Database\obj\Debug\Case_SB_Database.pdb
+C:\Users\Leon\Desktop\TokenAuth\TokenAuth\Case_SB_Database\bin\Debug\Case_SB_Database.dacpac
+C:\Users\Leon\Desktop\TokenAuth\TokenAuth\Case_SB_Database\bin\Debug\Case_SB_Database.dll
+C:\Users\Leon\Desktop\TokenAuth\TokenAuth\Case_SB_Database\bin\Debug\Case_SB_Database.pdb
+C:\Users\Leon\Desktop\TokenAuth\TokenAuth\Case_SB_Database\obj\Debug\Model.xml
+C:\Users\Leon\Desktop\TokenAuth\TokenAuth\Case_SB_Database\obj\Debug\refactor.xml
+C:\Users\Leon\Desktop\TokenAuth\TokenAuth\Case_SB_Database\obj\Debug\postdeploy.sql
+C:\Users\Leon\Desktop\TokenAuth\TokenAuth\Case_SB_Database\obj\Debug\predeploy.sql
+C:\Users\Leon\Desktop\TokenAuth\TokenAuth\Case_SB_Database\obj\Debug\Case_SB_Database.dll
+C:\Users\Leon\Desktop\TokenAuth\TokenAuth\Case_SB_Database\obj\Debug\Case_SB_Database.pdb

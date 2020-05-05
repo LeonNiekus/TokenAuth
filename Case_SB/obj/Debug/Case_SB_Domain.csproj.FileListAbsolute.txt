@@ -1,0 +1,11 @@
+C:\Users\Leon\Desktop\TokenAuth\TokenAuth\Case_SB\obj\Debug\Case_SB_Domain.csproj.CoreCompileInputs.cache
+C:\Users\Leon\Desktop\TokenAuth\TokenAuth\Case_SB\bin\Debug\Case_SB.dll.config
+C:\Users\Leon\Desktop\TokenAuth\TokenAuth\Case_SB\bin\Debug\Case_SB.dll
+C:\Users\Leon\Desktop\TokenAuth\TokenAuth\Case_SB\bin\Debug\Case_SB.pdb
+C:\Users\Leon\Desktop\TokenAuth\TokenAuth\Case_SB\bin\Debug\EntityFramework.dll
+C:\Users\Leon\Desktop\TokenAuth\TokenAuth\Case_SB\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Leon\Desktop\TokenAuth\TokenAuth\Case_SB\bin\Debug\EntityFramework.xml
+C:\Users\Leon\Desktop\TokenAuth\TokenAuth\Case_SB\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Leon\Desktop\TokenAuth\TokenAuth\Case_SB\obj\Debug\Case_SB_Domain.csproj.CopyComplete
+C:\Users\Leon\Desktop\TokenAuth\TokenAuth\Case_SB\obj\Debug\Case_SB.dll
+C:\Users\Leon\Desktop\TokenAuth\TokenAuth\Case_SB\obj\Debug\Case_SB.pdb

@@ -16,11 +16,11 @@ USING (VALUES
 		(2, 'Luuk Ammerlaan', 'wachtwoord2', 'SuperAdmin', 'luuk@outlook.com'),
 		(3, 'Avans Hogeschool', 'wachtwoord3', 'User', 'avans@outlook.com')
 ) 
-AS Source (UserId, UserName, UserPassword, UserRole, UserEmail) 
-ON Target.UserId = Source.UserId 
+AS Source (Id, Name, Password, Role, Email) 
+ON Target.Id = Source.Id 
 WHEN NOT MATCHED BY TARGET THEN 
-INSERT (UserName, UserPassword, UserRole, UserEmail) 
-VALUES (UserName, UserPassword, UserRole, UserEmail);
+INSERT (Name, Password, Role, Email) 
+VALUES (Name, Password, Role, Email);
 
 MERGE INTO Products AS Target
 USING (VALUES 
@@ -30,8 +30,20 @@ USING (VALUES
 		(4, 'Schrift', NULL, 2.10),
 		(5, 'Hamsterbal', '0.25m³ inhoud', 3.25)
 )
-AS Source (ProductId, ProductName, ProductDescription, ProductPrice)
-ON Target.ProductId = Source.ProductId
+AS Source (Id, Name, Description, Price)
+ON Target.Id = Source.Id
 WHEN NOT MATCHED BY TARGET THEN
-INSERT (ProductName, ProductDescription, ProductPrice)
-VALUES (ProductName, ProductDescription, ProductPrice);
+INSERT (Name, Description, Price)
+VALUES (Name, Description, Price);
+
+MERGE INTO Clients AS Target
+USING (VALUES 
+        (1, NewID(), NewID(), 'BlackBoard', GetDate()),
+		(2, NewID(), NewID(), 'Skype', GetDate()),
+		(3, NewID(), NewID(), 'BobNET', GetDate())
+)
+AS Source (KeyId, Id, Secret, Name, CreatedOn)
+ON Target.KeyId = Source.KeyId
+WHEN NOT MATCHED BY TARGET THEN
+INSERT (Id, Secret, Name, CreatedOn)
+VALUES (Id, Secret, Name, CreatedOn);

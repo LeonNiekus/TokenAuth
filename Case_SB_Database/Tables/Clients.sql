@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].[Clients]
+(
+	[KeyId] INT NOT NULL PRIMARY KEY IDENTITY, 
+    [Id] VARCHAR(500) NOT NULL, 
+    [Secret] VARCHAR(500) NOT NULL, 
+    [Name] VARCHAR(100) NOT NULL, 
+    [CreatedOn] DATETIME NOT NULL
+)
